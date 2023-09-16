@@ -1,0 +1,98 @@
+.divider-h {
+    display: none
+}
+
+.divider-v {
+    display: block
+}
+
+.color-divider {
+    color: #E2E2E2;
+}
+
+.footer-title {
+    font-family: Everett;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    color: var(--Black, #1D1D1D);
+
+}
+
+.description {
+    color: var(--Black, #1D1D1D);
+    /* Lausanne - 16 */
+    font-family: Lausanne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-sub-title {
+    color: rgba(29, 29, 29, 0.60);
+    /* Lausanne - 16 */
+    font-family: Lausanne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 20.8px */
+}
+.footer-sub-title-mail {
+    color: rgba(29, 29, 29, 0.60);
+    /* Lausanne - 16 */
+    font-family: Lausanne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 20.8px */
+    display: inline !important;
+    border-bottom: 1px solid var(--Green, #23E588);
+    margin-bottom: 10px;
+
+}
+.footer-sub-title-mail2 {
+    color: rgba(29, 29, 29, 0.60);
+    /* Lausanne - 16 */
+    font-family: Lausanne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 20.8px */
+    display: none !important;
+    border-bottom: 1px solid var(--Green, #23E588);
+    margin-bottom: 10px;
+
+}
+
+.logo-footer {
+    width: 80%;
+    height: auto;
+}
+
+@media (min-width: 100px) and (max-width: 1023px) {
+    .divider-h {
+        display: block
+    }
+
+    .divider-v {
+        display: none
+    }
+
+    .logo-footer {
+        width: 60%;
+        height: auto;
+    }
+    .footer-sub-title-mail2 {
+        display: inline !important;
+    }
+}
